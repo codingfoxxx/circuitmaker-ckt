@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: div10-frequency-7490
+expected_outcome: |
+  DIV10.CKT uses a single 74LS90 in bi-quinary mode (clock on CP1, Q3 -> CP0, output Q0) so the output is f/10 with 50% duty; MS/MR tied low; a Pulser as input. The answer explains why BCD mode (Q3) would give 20% duty and that CircuitMaker's digital mode measures ticks, so the proof is the 10:1 ratio.

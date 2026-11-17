@@ -1,0 +1,4 @@
+* text=auto
+*.CKT -text
+*.ckt -text
+*.png binary

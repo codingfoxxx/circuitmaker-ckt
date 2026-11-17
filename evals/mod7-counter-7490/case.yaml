@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: mod7-counter-7490
+expected_outcome: |
+  MOD7.CKT is a valid CircuitMaker 5.6 schematic: a 74LS90 in BCD mode (clock on CP0, Q0->CP1) with reset decoded at 7 (Q2,Q1,Q0 all high) driving MR1/MR2, MS1/MS2 tied low, a Pulser clock and a hex display. It counts 0..6 and shows 0 on the 7th pulse. The answer explains how to run it in Digital mode.
